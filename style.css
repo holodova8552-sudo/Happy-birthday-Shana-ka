@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(145deg, #ffb7dd, #ffc8f2, #ffe3ff);
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(255, 140, 200, 0.5);
+    width: 90%;
+    max-width: 500px;
+}
+
+.title {
+    font-size: 2.3rem;
+    color: #ff4fa3;
+    text-shadow: 0px 0px 6px rgba(255, 90, 170, 0.4);
+}
+
+.subtitle {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #ff77bb;
+}
+
+.music-menu {
+    background: #ffe6f5;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    box-shadow: 0 0 10px rgba(255, 150, 210, 0.3);
+}
+
+.music-menu button {
+    background: #ff62b0;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    margin-left: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.surprise-btn {
+    background: #ff4fa3;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 100, 180, 0.4);
+}
+
+#message {
+    margin-top: 20px;
+    background: #fff0fa;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 0.95rem;
+    color: #c7367c;
+    animation: fadeIn 0.7s ease forwards;
+}
+
+.hidden {
+    display: none;
+}
+
+.from {
+    font-weight: bold;
+    color: #ff4fa3;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(15px); }
+    to { opacity: 1; transform: translateY(0); }
+}
